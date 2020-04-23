@@ -4,13 +4,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #### Project should consist of 3 major components
 1. a navigation area with two buttons that when clicked should toggle between two graphs
 2. 2 separate graphs of you choosing from the fusionCharts library
- - each graph should pull dynamic data from an api of your choosing (these data can be as complex or as simple as you'd like)
+ - each graph should pull dynamic data from ANY api of your choosing (these data can be as complex or as simple as you'd like)
 3. The page should be styled nicely and responsive.
  - see the file `mockup.png` for a basic reference
 
 #### references
  - Fusion Charts React Setup
   - https://www.fusioncharts.com/download/fusioncharts-suite-xt?framework=
+
+#### Bonus (if you have time):
+ - Go through this tutorial to familiarize yourself with rails: https://medium.com/@nancydo7/ruby-on-rails-crud-tutorial-899117710c7a
 
 ### Available Scripts
 #### `yarn start`
