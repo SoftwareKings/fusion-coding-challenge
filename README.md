@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. a navigation area with two buttons that when clicked should toggle between two graphs
 2. 2 separate graphs of you choosing from the fusionCharts library
  - each graph should pull dynamic data from ANY api of your choosing (these data can be as complex or as simple as you'd like)
+ - if you run out of time, you can choose to populate one or both of the graphs with hard-coded data
 3. The page should be styled nicely and responsive.
  - see the file `mockup.png` for a basic reference
 
