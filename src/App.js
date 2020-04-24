@@ -13,7 +13,7 @@ function App() {
         </div>
 
         <div className="App-navButton" onClick={() => setChartType("dynamic")}>
-          <span>Show Dyanmic Graph</span>
+          <span>Show Dynamic Graph</span>
         </div>
       </div>
 
