@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.App-navs {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0 50px 30px 50px;
+  border-bottom: solid 2px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.App-navButton {
+  padding: 10px 20px;
+  border: solid 2px #000;
+  color: #555;
+  margin: 10px;
+  user-select: none;
+}
+
+.App-navButton:hover {
+  color: #000;
+  border-color: #555;
+}
+
+.App-charts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
