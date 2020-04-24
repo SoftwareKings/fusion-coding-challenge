@@ -50,15 +50,19 @@
 
 .App-navButton {
   padding: 10px 20px;
-  border: solid 2px #000;
-  color: #555;
   margin: 10px;
   user-select: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  box-shadow: 0 5px 10px #999;
 }
 
 .App-navButton:hover {
-  color: #000;
-  border-color: #555;
+  background-color: #3e8e41;
 }
 
 .App-charts {

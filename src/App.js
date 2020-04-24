@@ -18,7 +18,7 @@ function App() {
       </div>
 
       <div className="App-charts">
-        <h1>Fusion Chart Graph - {chartType}</h1>
+        <h1>FusionCharts - {chartType}</h1>
         {
           chartType === "static" ? <StaticChart/> : <DyanmicChart/>
         }
