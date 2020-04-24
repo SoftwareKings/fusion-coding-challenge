@@ -87,7 +87,7 @@ export function DyanmicChart() {
                     dataSource: {
                         chart: {
                             caption: "Quote - APPLE INC",
-                            subCaption: new Date().toLocaleDateString(),
+                            subCaption: new Date().toLocaleString(),
                             xAxisName: "Types",
                             yAxisName: "Price",
                             numberSuffix: "USD",
