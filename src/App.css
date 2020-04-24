@@ -63,8 +63,9 @@
 
 .App-charts {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  flex-direction: column;
   padding: 50px;
 }

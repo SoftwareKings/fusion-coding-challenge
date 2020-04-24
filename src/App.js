@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-// import logo from './logo.svg';
 import './App.css';
+import { StaticChart, DyanmicChart } from './components/FusionCharts';
 
 function App() {
   const [chartType, setChartType] = useState("static");
@@ -19,6 +19,9 @@ function App() {
 
       <div className="App-charts">
         <h1>Fusion Chart Graph - {chartType}</h1>
+        {
+          chartType === "static" ? <StaticChart/> : <DyanmicChart/>
+        }
       </div>
     </div>
   );
